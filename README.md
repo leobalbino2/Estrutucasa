@@ -1,7 +1,5 @@
 <p align="left" style="font-size:28px;"><strong><em>DOCUMENTO DA APLICAÇÃO</em></strong></p>
 
-![Preview][lg]
-
 <details>
   <summary><strong>📑 Sumário</strong></summary>
 
