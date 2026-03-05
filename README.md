@@ -5,7 +5,6 @@
 
 - [1. Introdução](#1-introdução)
   - [Objetivos](#-objetivos)
-  - [Metodologia](#-metodologia)
 - [2. Requisitos](#2-requisitos)
 - [3. Modelo de casos de uso](#3-modelo-de-casos-de-uso)
 - [4. Banco de Dados](#4banco-de-dados)
