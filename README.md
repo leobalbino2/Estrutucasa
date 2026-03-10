@@ -71,6 +71,9 @@ Para o desenvolvimento do projeto será utilizada a metodologia ágil Scrum, que
 # 2. Requisitos
 
 # 3. Modelo de casos de uso
+O diagrama de casos de uso serve de representação visual para mostrar as funcionalidades principais de um sistema. Ele descreve as interações entre os atores (usuários) e o sistema por meio de "casos de uso", que são ações ou serviços oferecidos.
+
+![Preview][uscs]
 
 # 4. Banco de Dados
 
@@ -121,3 +124,5 @@ O projeto se mostra viável para desenvolvimento e implementação como uma solu
 # 12. Considerações Finais
 
 # 13. Referências
+
+[uscs]: imgs/usecase.jpeg
