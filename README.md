@@ -71,7 +71,7 @@ Para o desenvolvimento do projeto será utilizada a metodologia ágil Scrum, que
 # 2. Requisitos
 O documento de requisitos de uma aplicação é um fator fundamental para seu desenvolvimento, pois permite catalogar e compreender quais características são essenciais para o sistema a ser desenvolvido com base nas funcionalidades e restrições propostas pelo cliente, assim possibilitando a entrega de um produto padronizado e satisfatório conforme as especificações solicitadas.
 
-###Histórias do usuário 
+### Histórias do usuário 
 
 • Como usuário não cadastrado, quero poder acessar a página inicial do site para que eu possa entender do que se trata.
 
@@ -101,7 +101,6 @@ O documento de requisitos de uma aplicação é um fator fundamental para seu de
 
 ## • Requisitos funcionais
 Os requisitos funcionais de uma aplicação são especificações definidas na etapa de elicitação do software, que ocorre durante o levantamento de requisitos. Seu propósito é fornecer à equipe de desenvolvimento as características especificas, restrições e funcionalidades que o sistema possui durante certas circunstâncias, estabelecendo assim as bases para o desenvolvimento de um produto que atende as necessidades do cliente.
-
 
 ### Usuários não cadastrados
 
@@ -176,7 +175,6 @@ A aplicação deve funcionar em diferentes dispositivos e navegadores.
 
 #### RNF 5 - Disponibilidade
 O sistema deve estar disponível para acesso dos usuários na maior parte do tempo.
-
 
 # 3. Modelo de casos de uso
 O diagrama de casos de uso serve de representação visual para mostrar as funcionalidades principais de um sistema. Ele descreve as interações entre os atores (usuários) e o sistema por meio de "casos de uso", que são ações ou serviços oferecidos.
