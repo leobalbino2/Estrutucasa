@@ -231,4 +231,4 @@ O projeto se mostra viável para desenvolvimento e implementação como uma solu
 
 # 13. Referências
 
-[uscs]: imgs/usecase.jpeg
+[uscs]: imgs/usecasee.png
