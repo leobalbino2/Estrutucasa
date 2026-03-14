@@ -69,6 +69,114 @@ A plataforma de design e criação de interfaces Figma possibilitará a concepç
 Para o desenvolvimento do projeto será utilizada a metodologia ágil Scrum, que organiza o processo de desenvolvimento em ciclos curtos chamados Sprints. Cada Sprint corresponde a um período de trabalho no qual determinadas funcionalidades do sistema são planejadas, desenvolvidas e avaliadas.
 
 # 2. Requisitos
+O documento de requisitos de uma aplicação é um fator fundamental para seu desenvolvimento, pois permite catalogar e compreender quais características são essenciais para o sistema a ser desenvolvido com base nas funcionalidades e restrições propostas pelo cliente, assim possibilitando a entrega de um produto padronizado e satisfatório conforme as especificações solicitadas.
+
+###Histórias do usuário 
+
+• Como usuário não cadastrado, quero poder acessar a página inicial do site para que eu possa entender do que se trata.
+
+• Como usuário não cadastrado, quero poder visualizar os profissionais e seus serviços na plataforma para que eu entenda os tipos de serviços oferecidos.
+
+• Como usuário não cadastrado, quero poder acessar a sessão "Cadastro" do site para me cadastrar na plataforma.
+
+• Como usuário cadastrado, quero poder fazer login na plataforma para acessar minha conta.
+
+• Como usuário cadastrado, quero poder editar minhas informações de perfil para manter meus dados atualizados.
+
+• Como cliente cadastrado, quero poder buscar profissionais para encontrar prestadores de serviços.
+
+• Como cliente cadastrado, quero poder solicitar um orçamento para um profissional. 
+
+• Como cliente cadastrado, quero poder agendar um serviço com um profissional.
+
+• Como cliente cadastrado, quero poder visualizar o histórico de serviços realizados para acompanhar meus atendimentos anteriores.
+
+• Como profissional cadastrado, quero poder criar e gerenciar meu perfil profissional para apresentar meus serviços aos clientes.
+
+• Como profissional cadastrado, quero poder receber solicitações de orçamento para responder aos clientes interessados.
+
+• Como profissional cadastrado, quero poder gerenciar meus agendamentos para organizar meus serviços.
+
+• Como profissional cadastrado, quero poder visualizar o histórico de serviços realizados para acompanhar meus atendimentos.
+
+## • Requisitos funcionais
+Os requisitos funcionais de uma aplicação são especificações definidas na etapa de elicitação do software, que ocorre durante o levantamento de requisitos. Seu propósito é fornecer à equipe de desenvolvimento as características especificas, restrições e funcionalidades que o sistema possui durante certas circunstâncias, estabelecendo assim as bases para o desenvolvimento de um produto que atende as necessidades do cliente.
+
+
+### Usuários não cadastrados
+
+#### RF 1 - Mostrar página inicial
+Exibir página inicial do sistema com informações gerais e os serviços oferecidos.
+
+#### RF 2 - Visualizar profissionais
+Permitir que usuários não cadastrados possam visualizar profissionais disponíveis no sistema.
+
+#### RF 3 - Cadastrar usuários 
+Permitir que usuários possam se cadastrar ao fornecer dados pessoais como nome, e-mail, telefone, e CNPJ no caso de profissionais.
+
+### Usuários Cadastrados
+
+#### RF 4 - Realizar login 
+Permitir que o usuário acesse sua conta informando e-mail e senha previamente cadastrados.
+
+#### RF 5 - Editar perfil
+Permitir que o usuário altere suas informações de perfil.
+
+### Usuários Cadastrados(Clientes)
+
+#### RF 6 - Buscar profissionais
+Permitir que o usuário busque profissionais disponíveis no sistema.
+
+#### RF 7 - Visualizar perfil do profissional
+Permitir que o usuário visualize o perfil do profissional, incluindo descrição e serviços oferecidos.
+
+#### RF 8 - Solicitar Orçamento
+Permitir que o usuário envie uma solicitação de orçamento ao profissional informando detalhes do serviço desejado.
+
+#### RF 9 - Agendar Serviço
+Permitir que o usuário agende o serviço após a aprovação do orçamento.
+
+#### RF 10 - Visualizar histórico de serviços
+Permitir que o usuário visualize o histórico de serviços solicitados, incluindo data, valores e status do serviço.
+
+### Usuários Cadastrados(Profissionais)
+
+#### RF 11 - Criar perfil profissional
+Permitir que o profissional configure seu perfil profissional.
+
+#### RF 12 - Cadastrar serviços
+Permitir que o usuário cadastre os serviços oferecidos na plataforma.
+
+#### RF 13 - Gerenciar solicitações de orçamento
+Permitir que o profissional visualize e responda solicitações de orçamento.
+
+#### RF 14 - Enviar orçamento
+Permitir que o usuário envie um valor estimado do serviço com base nos dados oferecidos pelo cliente na solicitação de orçamento.
+
+#### RF 15 - Gerenciar agendamentos
+Permitir que o profissional possa visualizar e gerenciar os serviços agendados.
+
+#### RF 16 - Visualizar histórico de serviços
+Permitir que o profissional visualize serviços concluídos e seus respectivos valores.
+
+## • Requisitos não funcionais
+Os requisitos não funcionais referem-se aos aspectos do sistema que garantem sua qualidade.
+
+#### RNF 1 - Usabilidade 
+O sistema deve possuir uma interface simples e intuitiva, permitindo que clientes e profissionais tenham facilidade para navegar e utilizem as funcionalidades oferecidas sem dificuldades.
+
+#### RNF 2 - Desempenho
+O sistema deve apresentar respostas rápidas as ações dos usuários, como busca de profissionais, envio de orçamentos e carregamento de páginas.
+
+#### RNF 3 - Segurança
+O sistema deve garantir a proteção das informações do usuário.
+
+#### RNF 4 - Compatibilidade
+A aplicação deve funcionar em diferentes dispositivos e navegadores.
+
+#### RNF 5 - Disponibilidade
+O sistema deve estar disponível para acesso dos usuários na maior parte do tempo.
+
 
 # 3. Modelo de casos de uso
 O diagrama de casos de uso serve de representação visual para mostrar as funcionalidades principais de um sistema. Ele descreve as interações entre os atores (usuários) e o sistema por meio de "casos de uso", que são ações ou serviços oferecidos.
